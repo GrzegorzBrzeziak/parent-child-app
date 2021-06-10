@@ -8,6 +8,8 @@ import { ContactComponent } from './component/contact/contact.component';
 import { AboutComponent } from './component/about/about.component';
 import { PageNotFoundComponent } from './component/page-not-found/page-not-found.component';
 import { PostsComponent } from './component/posts/posts.component';
+import { PostsListComponent } from './component/posts-list/posts-list.component';
+import { PostItemComponent } from './component/post-item/post-item.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { PostsComponent } from './component/posts/posts.component';
     ContactComponent,
     AboutComponent,
     PageNotFoundComponent,
-    PostsComponent
+    PostsComponent,
+    PostsListComponent,
+    PostItemComponent
   ],
   imports: [
     BrowserModule,
